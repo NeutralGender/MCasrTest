@@ -1,0 +1,291 @@
+{
+
+    "dissemination":{
+
+        "production": [
+
+            {
+
+                "broadcast": [
+
+                    {
+                        "name": "A-CD",
+                        "tag": "0",
+                        "group": "233.46.176.0",
+                        "port": 55630
+                    },
+    
+                    {
+                        "name": "CE-FD", 
+                        "tag": "1",
+                        "group": "233.46.176.1",
+                        "port": 55631
+                    },
+    
+                    {
+                        "name": "FE-LK", 
+                        "tag": "2",
+                        "group": "233.46.176.2",
+                        "port": 55632
+                    },
+                    
+                    {
+                        "name": "LL-PB", 
+                        "tag": "3",
+                        "group": "233.46.176.3",
+                        "port": 55633
+                    },
+                                    
+                    {
+                        "name": "PC-SP",
+                        "tag": "4",
+                        "group": "233.46.176.4",
+                        "port": 55634
+                    },
+                                      
+                    {
+                        "name": "SQ-ZZ", 
+                        "tag": "5",
+                        "group": "233.46.176.5",
+                        "port": 55635
+                    }
+    
+                ],
+            
+                "feed" : "A",
+                "source": "192.168.56.117",
+                "mask": 25,
+
+                "country" : "US",
+                "city" : "NY"
+
+            },
+        
+            {
+             
+                "broadcast":[
+
+                    {
+                        "name": "A-CD",
+                        "tag": "0",
+                        "group": "233.46.176.16",
+                        "port": 55630
+                    },
+
+                    {
+                        "name": "CE-FD", 
+                        "tag": "1",
+                        "group": "233.46.176.17",
+                        "port": 55631
+                    },
+                    {
+                        "name": "FE-LK", 
+                        "tag": "2",
+                        "group": "233.46.176.18",
+                        "port": 55632
+                    },
+                    {
+                        "name": "LL-PB", 
+                        "tag": "3",
+                        "group": "233.46.176.19",
+                        "port": 55633
+                    },
+                    {
+                        "name": "PC-SP",
+                        "tag": "4", 
+                        "group": "233.46.176.20",
+                        "port": 55634
+                    },
+                    {
+                        "name": "SQ-ZZ", 
+                        "tag": "5",
+                        "group": "233.46.176.21",
+                        "port": 55635
+                    }
+
+                ],
+                        
+                "feed" : "B",
+                "source": "192.168.56.117",
+                "mask": 25,
+
+                "country" : "US",
+                "city" : "NY"
+
+            }
+                                                            
+        ],
+
+        "retransmission": [
+
+            {
+
+                "request":[
+
+                    {
+                        "name": "A-CD", 
+                        "tag": "A1",
+                        "source": "69.10.248.192",
+                        "port": 55730
+                    },
+    
+                    {
+                        "name": "CE-FD", 
+                        "tag": "A2",
+                        "source": "69.10.248.192",
+                        "port": 55731
+                    },
+                                       
+                    {
+                        "name": "FE-LK", 
+                        "tag": "A3",
+                        "source": "69.10.248.194",
+                        "port": 55732
+                    },
+                                    
+                    {
+                        "name": "LL-PB", 
+                        "tag": "A4",
+                        "source": "69.10.248.194",
+                        "port": 55733
+                    },
+                                  
+                    {
+                        "name": "PC-SP", 
+                        "tag": "A5",
+                        "source": "69.10.248.196",
+                        "port": 55734
+                    },
+    
+                    {
+                        "name": "SQ-ZZ", 
+                        "tag": "A6",
+                        "source": "69.10.248.197",
+                        "port": 55735
+                    }
+    
+                ],
+
+                "country" : "US",
+                "city" : "NY"
+
+            },
+
+            {
+
+                "request":[
+
+                    {
+                        "name": "A-CD", 
+                        "tag": "A1",
+                        "source": "69.10.248.224",
+                        "port": 55630
+                    },
+
+                    {
+                        "name": "CE-FD", 
+                        "tag": "A2",
+                        "source": "69.10.248.225",
+                        "port": 55631
+                    },
+
+                    {
+                        "name": "FE-LK", 
+                        "tag": "A3",
+                        "source": "69.10.248.226",
+                        "port": 55632
+                    },
+
+                    {
+                        "name": "LL-PB", 
+                        "tag": "A4",
+                        "source": "69.10.248.227",
+                        "port": 55633
+                    },
+
+                    {
+                        "name": "PC-SP", 
+                        "tag": "A5",
+                        "source": "69.10.248.228",
+                        "port": 55634
+                    },
+
+                    {
+                        "name": "SQ-ZZ", 
+                        "tag": "A6",
+                        "source": "69.10.248.229",
+                        "port": 55635
+                    }
+
+                ],
+
+                "country" : "US",
+                "city" : "NY"
+
+            }
+
+        ],
+
+        "quotation": [
+
+            {
+
+                "test_broadcast":[
+
+                    {
+                        "name": "A-CD", 
+                        "tag": "A1",
+                        "group": "233.46.176.48",
+                        "port": 55650
+                    },
+    
+                    {
+                        "name": "CE-FD", 
+                        "tag": "A2",
+                        "group": "233.46.176.49",
+                        "port": 55651
+                    },
+                                       
+                    {
+                        "name": "FE-LK", 
+                        "tag": "A3",
+                        "group": "233.46.176.50",
+                        "port": 55652
+                    },
+                                          
+                    {
+                        "name": "LL-PB", 
+                        "tag": "A4",
+                        "group": "233.46.176.51",
+                        "port": 55653
+                    },              
+                                                
+                    {
+                        "name": "PC-SP", 
+                        "tag": "A5",
+                        "group": "233.46.176.52",
+                        "port": 55654
+                    },
+                                     
+                    {
+                        "name": "SQ-ZZ", 
+                        "tag": "A6",
+                        "group": "233.46.176.53",
+                        "port": 55655
+                    }
+    
+                ],
+            
+                "source": "68.10.251.126",
+
+                "country" : "US",
+                "city" : "NY"
+
+            }
+                
+        ]
+        
+    }
+
+
+}
