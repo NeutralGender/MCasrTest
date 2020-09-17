@@ -1,0 +1,20 @@
+{
+    "multicast": 
+    {
+        "server": 
+        {
+            "local": "172.16.250.2"
+        }
+    },
+    
+    "address": 1,
+    "port": 33333,
+    "cores": 1, "docCORE": "Core count",
+    "threads": 1, "docTHREADS": "Threads count on each core",
+    "loop" : 400, "docLOOP" : "Dissemination loop count",
+    "dump_file" : "capture/dump1350.pcapng", "docDump" : "File with captured UDP packages",
+    "delay_ms" : 20, "doc": "Number of millisec to delay",
+    "delay_us": 0, "docMicro": "Number of tacts of delay in microseconds, if 0 use 'delay' ",
+    "package": 400, "docPackage": "Number of packages send by each channel per dispatch",
+    "ip_addr_start": "233.46.176.0"
+}

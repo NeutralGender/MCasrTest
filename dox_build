@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Remove waste
+[ -d dox/ ] && rm -rf dox/
+rm stg.mdp.dox.html
+
+doxygen etc/dox/Doxyfile
+ln -s dox/html/index.html stg.mdp.dox.html

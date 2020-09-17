@@ -1,0 +1,7 @@
+{"production":{"A":[{"source":"172.16.250.2","mask":25,"country":"US","city":"NY","channel":[{"name":"A-CD","tag":"0","group":"233.46.176.1","port":33333
+}
+]
+}
+]
+}
+}

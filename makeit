@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Common setup for script when doing copy-paste
+PROJECT_NAME=stg.mdp
+BUILD_DIR=../build.${PROJECT_NAME}/
+
+echo === ${PROJECT_NAME} RELEASE BUILD WITH UNIX MAKEFILES ===
+rc=$? 
+if [ $rc -eq 0 ]
+then
+        echo === ${PROJECT_NAME} BUILD RELEASE TARGETS ===
+        
+        make -C ${BUILD_DIR} --no-print-directory
+        rc=$?
+        
+        if [ $rc -eq 0 ]
+        then
+                echo === Build ${PROJECT_NAME} SUCCESS ===
+        else
+                echo === ${PROJECT_NAME} BUILD FAILS ===
+                exit 1
+        fi
+else
+        echo === ${PROJECT_NAME} PLEASE DO FULL BUILD to generate CMake scripts ===
+        exit 1
+fi
+
+exit 0

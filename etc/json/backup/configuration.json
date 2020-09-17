@@ -1,0 +1,78 @@
+{
+    "crypto": {
+        "asymmetric": {
+            "RSA": {
+                "server": {
+                    "key_length": 2048
+                },
+                "client": {
+                    "key_length": 3072
+                }
+            }
+        },
+        "symmetric": {
+            "AES": {
+                "key_len": 16,
+                "iv_len": 16
+            }
+        }
+    },
+    "db": {
+        "redis": {
+            "host": "127.0.0.1",
+            "port": 6379
+        },
+        "psql": {
+            "db": "postgres",
+            "usr": "postgres",
+            "passwd": "postgres",
+            "host": "127.0.0.1",
+            "port": "5432"
+        }
+    },
+    "secure_connection": {
+        "redis_secure": {
+            "passwd": "mypass",
+            "CA_cert": "",
+            "client_cert": "/etc/stunnel/root_stunnel.pem",
+            "client_private_key": "",
+            "server_request": ""
+        }
+    },
+    "auth": {
+        "local": "192.168.56.108",
+        "port": 5432,
+        "server_pub_key": "server_pubkey.dat",
+        "client_login": "Alice"
+    },
+    "multicast": {
+        "server": {
+            "local": "192.168.56.118",
+            "group": "233.46.176.0",
+            "port": 55630
+        },
+        "client": {
+            "ASM": {
+                "local": "192.168.56.118",
+                "group": "225.1.1.1"
+            },
+            "SSM": {
+                "src": "192.168.56.112",
+                "group": "225.1.1.1",
+                "local": "192.168.56.188"
+            },
+            "port": 8001
+        }
+    },
+    "tcp": {
+        "server": {
+            "host": "192.168.56.108",
+            "port": 8001,
+            "backlog": 8
+        },
+        "client": {
+            "host": "192.168.56.108",
+            "port": 8001
+        }
+    }
+}

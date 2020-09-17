@@ -1,0 +1,120 @@
+{
+
+    "retransmission":{
+
+        "A": [
+
+                {
+                    "country" : "US",
+                    "city" : "NY",
+
+                    "channel":[
+
+                        {
+                            "name": "A-CD", 
+                            "tag": "A1",
+                            "source": "69.10.248.192",
+                            "port": 55730
+                        },
+        
+                        {
+                            "name": "CE-FD", 
+                            "tag": "A2",
+                            "source": "69.10.248.192",
+                            "port": 55731
+                        },
+                                        
+                        {
+                            "name": "FE-LK", 
+                            "tag": "A3",
+                            "source": "69.10.248.194",
+                            "port": 55732
+                        },
+                                        
+                        {
+                            "name": "LL-PB", 
+                            "tag": "A4",
+                            "source": "69.10.248.194",
+                            "port": 55733
+                        },
+                                    
+                        {
+                            "name": "PC-SP", 
+                            "tag": "A5",
+                            "source": "69.10.248.196",
+                            "port": 55734
+                        },
+        
+                        {
+                            "name": "SQ-ZZ", 
+                            "tag": "A6",
+                            "source": "69.10.248.197",
+                            "port": 55735
+                        }
+        
+                    ]
+
+                }
+
+            ],
+
+        "B":[
+            
+                {
+                    "country" : "US",
+                    "city" : "NY",
+
+                    "channel":[
+
+                        {
+                            "name": "A-CD", 
+                            "tag": "A1",
+                            "source": "69.10.248.224",
+                            "port": 55630
+                        },
+
+                        {
+                            "name": "CE-FD", 
+                            "tag": "A2",
+                            "source": "69.10.248.225",
+                            "port": 55631
+                        },
+
+                        {
+                            "name": "FE-LK", 
+                            "tag": "A3",
+                            "source": "69.10.248.226",
+                            "port": 55632
+                        },
+
+                        {
+                            "name": "LL-PB", 
+                            "tag": "A4",
+                            "source": "69.10.248.227",
+                            "port": 55633
+                        },
+
+                        {
+                            "name": "PC-SP", 
+                            "tag": "A5",
+                            "source": "69.10.248.228",
+                            "port": 55634
+                        },
+
+                        {
+                            "name": "SQ-ZZ", 
+                            "tag": "A6",
+                            "source": "69.10.248.229",
+                            "port": 55635
+                        }
+
+                    ]
+
+                }
+
+            ]
+        
+    }
+
+
+}
