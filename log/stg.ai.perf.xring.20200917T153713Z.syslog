@@ -1,5 +1,0 @@
-2020-09-17 15:37:13.451977Z  tid = 647100:92 [axl.ai.log] init: Logger handler allocated
-2020-09-17 15:37:13.452001Z  tid = 647100:92 [axl.ai.log] init: Syslog started, log file: log/stg.ai.perf.xring.20200917T153713Z.syslog
-2020-09-17 15:37:13.452072Z  tid = 647100:92 [axl.ai.log] init: Audit log started, log file: log/stg.ai.perf.xring.20200917T153713Z.audit
-2020-09-17 15:37:13.452131Z  tid = 647100:92 [axl.ai.log] init: Debug log started, log file: log/stg.ai.perf.xring.20200917T153713Z.debug
-2020-09-17 15:37:13.563080Z INFO tid = 647100:92 [stg.ai.xring] destructor: @0x7fff20fac140, '' destroyed
